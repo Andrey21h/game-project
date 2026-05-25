@@ -19,8 +19,8 @@ body {
 
 /* Hero-секція */
 .hero-section {
-    background:  #002859 url('https://images.unsplash.com/photo-1550009158-9ebf69173e03?q=80&w=2401&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center/cover no-repeat;
-    padding: 80px 0;
+    background: #002859 url('https://img.goodfon.ru/original/2559x1439/e/c9/playstation-ps5-ps4-sony.jpg') center/cover no-repeat;
+    padding: 300px 0;
     position: relative;
     overflow: hidden;
 }
@@ -39,15 +39,32 @@ body {
     object-fit: cover;
 }
 
+/* 🔴 ЦІНА */
+.price,
+.product-price {
+    color: #dc3545 !important; /* червоний */
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+/* Загальні кнопки */
 .btn {
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-
-.add-to-cart-btn:hover {
-    transform: translateY(-2px) scale(1.03);
+/* 🔵 КНОПКА "В КОШИК" (яскравіша версія) */
+.add-to-cart-btn {
+    background-color: #0057ff !important;
+    border-color: #0057ff !important;
+    color: #fff !important;
 }
 
+.add-to-cart-btn:hover {
+    background-color: #1a73ff !important;
+    border-color: #1a73ff !important;
+    transform: translateY(-2px) scale(1.03);
+    box-shadow: 0 10px 22px rgba(0, 87, 255, 0.35);
+}
 
 /* Кнопка кошика - hover */
 #cartBtn:hover {
@@ -67,6 +84,7 @@ body {
     transform: translateY(-2px);
 }
 
+/* Footer */
 footer a.text-white {
     transition: color 0.25s ease, transform 0.25s ease;
 }
@@ -76,6 +94,7 @@ footer a.text-white:hover {
     transform: translateY(-2px) scale(1.08);
 }
 
+/* Кошик */
 #cartItems .card {
     transition: transform 0.25s ease, background-color 0.25s ease;
 }
@@ -85,6 +104,7 @@ footer a.text-white:hover {
     background-color: #f8f9fa;
 }
 
+/* Оформлення замовлення */
 #checkoutCard {
     transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
@@ -106,14 +126,18 @@ footer a.text-white:hover {
         text-align: center;
     }
 }
+
+/* Карточки продуктів */
 .product-card {
-  transition: all 0.3s ease;
-}
-.product-card:hover {
-  transform: translateY(-8px) scale(1.02);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
 }
 
-#navbarNav{
-  gap: 25px;
+.product-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* Навбар */
+#navbarNav {
+    gap: 25px;
 }
