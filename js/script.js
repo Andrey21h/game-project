@@ -222,4 +222,7 @@ function displayCart() {
     });
     document.querySelector('#totalPrice').textContent = `${total} грн`; // Виводимо загальну суму
 
+    const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
+    const countBadge = document.querySelector('#cartItemsCount');
+    if (countBadge) countBadge.textContent = totalItems;
 }
