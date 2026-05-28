@@ -35,7 +35,7 @@
         "id": 5,
         "title": "Hogwarts Legacy",
         "price": 2399,
-        "image": "hogwarts_legacy_ps5.png",
+        "image": "Hogwarts Legacy.webp",
         "category": "Ігри PS5",
         "description": "Рольова гра у всесвіті Гаррі Поттера, де ви стаєте учнем Гоґвортсу XIX століття. Вивчайте магію, досліджуйте замок та боріться з темними силами."
     },
@@ -43,7 +43,7 @@
         "id": 6,
         "title": "Call of Duty: Modern Warfare III",
         "price": 2699,
-        "image": "mw3_ps5.png",
+        "image": "Call of Duty.webp",
         "category": "Ігри PS5",
         "description": "Сучасний військовий шутер із напруженою сюжетною кампанією та популярним багатокористувацьким режимом. Підтримує гру онлайн із друзями та масштабні битви."
     },
@@ -51,7 +51,7 @@
         "id": 7,
         "title": "The Last of Us Part I",
         "price": 2299,
-        "image": "the_last_of_us_part1_ps5.png",
+        "image": "The Last of Us.webp",
         "category": "Ігри PS5",
         "description": "Повністю оновлена версія культової гри з покращеною графікою та сучасними ефектами для PS5. Емоційна історія виживання Джоела та Еллі у постапокаліптичному світі."
     },
@@ -59,7 +59,7 @@
         "id": 8,
         "title": "Gran Turismo 7",
         "price": 2199,
-        "image": "gran_turismo_7_ps5.png",
+        "image": "Gran Turismo 7.webp",
         "category": "Ігри PS5",
         "description": "Реалістичний автосимулятор із величезною кількістю ліцензованих автомобілів та трас. Гра підтримує режим кар’єри, онлайн-перегони та адаптивні тригери DualSense."
     },
@@ -67,7 +67,7 @@
         "id": 9,
         "title": "Cyberpunk 2077 Ultimate Edition",
         "price": 2499,
-        "image": "cyberpunk_2077_ps5.png",
+        "image": "Cyberpunk 2077 Ultimate Edition.webp",
         "category": "Ігри PS5",
         "description": "Футуристична RPG у величезному відкритому світі Найт-Сіті. Гра пропонує захопливий сюжет, глибоку систему прокачування персонажа та покращену графіку для PlayStation 5."
     },
@@ -75,15 +75,15 @@
         "id": 10,
         "title": "Resident Evil 4 Remake",
         "price": 2399,
-        "image": "resident_evil_4_remake_ps5.png",
+        "image": "Resident Evil 4 Remake.webp",
         "category": "Ігри PS5",
         "description": "Оновлена версія культового survival horror з сучасною графікою та переробленим геймплеєм."
     },
     {
         "id": 11,
-        "title": "Mortal Kombat 1",
+        "title": "Mortal Kombat 11",
         "price": 2599,
-        "image": "mortal_kombat_1_ps5.png",
+        "image": "Mortal Kombat 11.webp",
         "category": "Ігри PS5",
         "description": "Новий файтинг із видовищними боями, легендарними персонажами та онлайн-режимом."
     },
@@ -91,7 +91,7 @@
         "id": 12,
         "title": "Elden Ring",
         "price": 2199,
-        "image": "elden_ring_ps5.png",
+        "image": "Elden Ring.webp",
         "category": "Ігри PS5",
         "description": "Масштабна рольова гра у темному фентезійному світі з відкритими локаціями та складними босами."
     }
